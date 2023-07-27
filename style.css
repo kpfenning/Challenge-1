@@ -1,29 +1,35 @@
+/* Univeral selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color: #ffffff;
 }
 
+/*sets primary background color*/
 body {
     background-color: #d9dcd6;
 }
 
+/*giving header space around it, setting unique font, & background color */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
 }
 
+/* setting font size & display for h1  */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*setting it so the letters "seo" in h1 have a different font color */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*creating the style for navigation in the header*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,21 +38,23 @@ body {
     font-size: 20px;
 }
 
+/*sets the navigation list options for each category of the article*/
 .header nav ul li {
     list-style-type: none;
     display: inline-block;
     margin-left: 50px;
 }
-
+/*links in nav bar*/
 a {
-    color: #ffffff;
     text-decoration: none;
 }
 
+/*paragraph font size*/
 p {
     font-size: 16px;
 }
 
+/*style for the meeting photo that is breaking up the webpage as a background*/
 .hero {
     height: 800px;
     width: 100%;
@@ -56,22 +64,25 @@ p {
     background-position: center;
 }
 
+/*Moves the content paragraphs/imgs to the left side of viewpoint*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*Moves the benefits paragraphs/imgs to the right side of viewpoint*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*sets the styling of the main section of content*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*sets the styling of the benefits content*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -83,40 +94,45 @@ p {
     background-color: #2589bd;
 }
 
+/*sets margin all three sections in the benefits content*/
 .benefits section {
     margin-bottom: 32px;
-    color: #ffffff;
 } 
 
+/*sets the header styling for all three benefits content*/
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*sets the image styling for all three benefits content*/
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*sets styling for all three of the content sections*/
 .content section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
 }
 
+/*sets the image styling for all three content sections*/
 .content img {
     max-height: 200px;
 }
 
+/*sets the header styling for all three content sections*/
 .content h2 {
     margin-bottom: 20px;
     font-size:36px;
 }
 
+/*sets footer styling*/
 .footer {
     padding: 30px;
     clear: both;
